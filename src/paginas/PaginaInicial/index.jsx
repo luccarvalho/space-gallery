@@ -1,9 +1,21 @@
-import Cabecalho from "../../componentes/Cabecalho";
+import Banner from '../../componentes/Banner';
+import Cabecalho from '../../componentes/Cabecalho';
+import Menu from '../../componentes/Menu';
+import styles from './PaginaInicial.module.scss';
 
-function PaginaInicial() {
+export default function PaginaInicial() {
     return(
-        <Cabecalho/>
+        <>
+            <Cabecalho/>
+            <main>
+                <section>
+                    <div className={styles.principal}>
+                        <Menu/>
+                        <Banner/>
+                    </div>
+                </section>
+            </main>
+        </>
     )
 }
-
-export default PaginaInicial;
+                    
