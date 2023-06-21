@@ -17,7 +17,7 @@ export default function PaginaInicial() {
                     </div>
                 </section>
             </main>
-            <div>
+            <div className={styles.galeria}>
                 <Galeria/>
             </div>
             <Rodape/>
