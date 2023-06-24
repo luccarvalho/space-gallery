@@ -1,6 +1,6 @@
-export default function Icone({ icone, style }) {
+export default function Icone({ icone, styles }) {
   return (
-    <li className={style.menu__item}>
+    <li className={styles.menu__item}>
       <img src={icone.path} alt={icone.alt} />
       <a href="/">{icone.link}</a>
     </li>
