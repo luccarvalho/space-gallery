@@ -12,7 +12,7 @@ Adicionando funcionalidades, como por exemplo, filtrar a exibição das imagens 
 
 Utilizando a importação de arquivos estáticos, como imagens, arquivos CSS ou SCSS, fontes, HTML semântico e boas práticas do React.
 
-## :heavy_check_mark: Técnologias utilizadas:
+## :heavy_check_mark: Tecnologias utilizadas
 
 - `React`
 - `SCSS`
