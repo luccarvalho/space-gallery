@@ -29,10 +29,16 @@ const SearchIcon = styled.img`
   height: 38px;
 `;
 
-const SearchField = () => {
+const SearchField = ({ setFiltro }) => {
   return (
     <ContainerEstilizado>
-      <SearchEstilizado placeholder="O que você procura?" />
+      <SearchEstilizado
+        onChange={(evento) => {
+          setFiltro(evento.target.value);
+        }}
+        type="text"
+        placeholder="O que você procura?"
+      />
       <SearchIcon src={search} alt="ícone de lupa de pesquisa" />
     </ContainerEstilizado>
   );
