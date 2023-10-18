@@ -1,6 +1,6 @@
 <h1 align="center">Space Gallery</h1>
 
-![Template Space Gallery](../space-gallery/space-gallery/public/assets/imagens/readme-img/Capa_do_Projeto.png)
+![Template Space Gallery](../space-gallery/space-gallery_v2/public/imagens/Capa_do_Projeto.png)
 
 ## Descrição e objetivo do projeto
 
